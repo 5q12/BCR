@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "bcr",
+	"version": "${version}",
+	"name": "BCR",
+	"description": "This mod adds a massive amount of new blocks and block types to Minecraft, mainly aimed at Creative players at the moment. (Currently in beta)",
+	"authors": [
+		"5q12"
+	],
+	"contact": {
+		"homepage": "https://5q12.ccls.icu",
+		"sources": "https://github.com/5q12/BCR"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bcr/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"app.ccls.bcr.BCR"
+		],
+		"client": [
+			"app.ccls.bcr.BCRClient"
+		]
+	},
+	"mixins": [
+		"bcr.mixins.json",
+		{
+			"config": "bcr.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
