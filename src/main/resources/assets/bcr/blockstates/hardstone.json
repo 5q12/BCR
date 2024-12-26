@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bcr:block/hardstone"
+    }
+  }
+}

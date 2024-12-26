@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "bcr:block/red_bricks_vertical_slab",
+            "y": 0
+        },
+        "facing=east": {
+            "model": "bcr:block/red_bricks_vertical_slab",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "bcr:block/red_bricks_vertical_slab",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "bcr:block/red_bricks_vertical_slab",
+            "y": 270
+        }
+    }
+}

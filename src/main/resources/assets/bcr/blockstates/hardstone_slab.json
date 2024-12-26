@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bcr:block/hardstone_slab"
+    },
+    "type=double": {
+      "model": "bcr:block/hardstone_slab_block"
+    },
+    "type=top": {
+      "model": "bcr:block/hardstone_slab_top"
+    }
+  }
+}

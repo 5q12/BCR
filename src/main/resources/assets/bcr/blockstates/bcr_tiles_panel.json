@@ -1,0 +1,28 @@
+{
+  "multipart": [
+    {
+      "when": { "has_panel_north": "true" },
+      "apply": { "model": "bcr:block/bcr_tiles_panel", "x": 90 }
+    },
+    {
+      "when": { "has_panel_south": "true" },
+      "apply": { "model": "bcr:block/bcr_tiles_panel", "x": 90, "y": 180 }
+    },
+    {
+      "when": { "has_panel_east": "true" },
+      "apply": { "model": "bcr:block/bcr_tiles_panel", "x": 90, "y": 90 }
+    },
+    {
+      "when": { "has_panel_west": "true" },
+      "apply": { "model": "bcr:block/bcr_tiles_panel", "x": 90, "y": 270 }
+    },
+    {
+      "when": { "has_panel_up": "true" },
+      "apply": { "model": "bcr:block/bcr_tiles_panel" }
+    },
+    {
+      "when": { "has_panel_down": "true" },
+      "apply": { "model": "bcr:block/bcr_tiles_panel", "x": 180 }
+    }
+  ]
+}

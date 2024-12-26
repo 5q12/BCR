@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+      "bottom": "bcr:block/quartz_bricks",
+      "top": "bcr:block/quartz_bricks",
+      "side": "bcr:block/quartz_bricks"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+      "bottom": "bcr:block/bcr_tiles",
+      "top": "bcr:block/bcr_tiles",
+      "side": "bcr:block/bcr_tiles"
+    }
+}

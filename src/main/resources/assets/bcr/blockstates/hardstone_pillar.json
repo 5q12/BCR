@@ -1,0 +1,69 @@
+{
+  "variants": {
+    "face=floor,facing=north": {
+      "model": "bcr:block/hardstone_pillar",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "face=floor,facing=east": {
+      "model": "bcr:block/hardstone_pillar",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "face=floor,facing=south": {
+      "model": "bcr:block/hardstone_pillar",
+      "x": 180,
+      "uvlock": true
+    },
+    "face=floor,facing=west": {
+      "model": "bcr:block/hardstone_pillar",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "face=wall,facing=north": {
+      "model": "bcr:block/hardstone_pillar",
+      "x": 90,
+      "uvlock": true
+    },
+    "face=wall,facing=east": {
+      "model": "bcr:block/hardstone_pillar",
+      "x": 90,
+      "y": 90,
+      "uvlock": true
+    },
+    "face=wall,facing=south": {
+      "model": "bcr:block/hardstone_pillar",
+      "x": 90,
+      "y": 180,
+      "uvlock": true
+    },
+    "face=wall,facing=west": {
+      "model": "bcr:block/hardstone_pillar",
+      "x": 90,
+      "y": 270,
+      "uvlock": true
+    },
+    "face=ceiling,facing=north": {
+      "model": "bcr:block/hardstone_pillar",
+      "uvlock": true
+    },
+    "face=ceiling,facing=east": {
+      "model": "bcr:block/hardstone_pillar",
+      "y": 90,
+      "uvlock": true
+    },
+    "face=ceiling,facing=south": {
+      "model": "bcr:block/hardstone_pillar",
+      "y": 180,
+      "uvlock": true
+    },
+    "face=ceiling,facing=west": {
+      "model": "bcr:block/hardstone_pillar",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}
